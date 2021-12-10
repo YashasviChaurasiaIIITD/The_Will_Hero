@@ -1,0 +1,7 @@
+{
+  "java.project.referencedLibraries": [
+    "lib/**/*.jar",
+    "/Users/yashasvichaurasia/Code/External_Libraries/javafx-sdk-17.0.1/lib/**/*.jar"
+  ]
+}
+//settings it is in. the name
