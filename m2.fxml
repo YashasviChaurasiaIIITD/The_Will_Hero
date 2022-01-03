@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="scenePane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="786.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="m2control">
+   <children>
+      <ImageView fx:id="cloud" fitHeight="65.0" fitWidth="129.0" layoutX="436.0" layoutY="98.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@The_Will_Hero-main/cloud.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="avatar" fitHeight="125.0" fitWidth="80.0" layoutX="213.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true" rotate="10.8">
+         <image>
+            <Image url="@assets/Helmet2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="island" fitHeight="242.0" fitWidth="221.0" layoutX="383.0" layoutY="170.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@The_Will_Hero-main/floatingIslands.png" />
+         </image>
+      </ImageView>
+      <Label alignment="TOP_CENTER" layoutX="49.0" layoutY="53.0" prefHeight="77.0" prefWidth="613.0" text=" Will Hero">
+         <font>
+            <Font name="Impact" size="62.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="isl2" fitHeight="150.0" fitWidth="200.0" layoutX="130.0" layoutY="238.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@The_Will_Hero-main/island_empty.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="isl1" fitHeight="150.0" fitWidth="200.0" layoutX="40.0" layoutY="238.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@The_Will_Hero-main/island_empty.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="131.0" fitWidth="72.0" layoutX="139.0" layoutY="167.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Tree3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="cloud2" fitHeight="28.0" fitWidth="168.0" layoutX="336.0" layoutY="294.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@The_Will_Hero-main/cloud.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="crest" fitHeight="77.0" fitWidth="55.0" layoutX="425.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@The_Will_Hero-main/crest.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="45.0" fitWidth="48.0" layoutX="501.0" layoutY="238.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Orc4.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bigorc1" fitHeight="154.0" fitWidth="145.0" layoutX="569.0" layoutY="86.0" pickOnBounds="true" preserveRatio="true" rotate="-4.6">
+         <image>
+            <Image url="@The_Will_Hero-main/bigorc.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="settings" fitHeight="150.0" fitWidth="200.0" layoutX="531.0" layoutY="222.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@The_Will_Hero-main/island_empty.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="29.0" fitWidth="30.0" layoutX="100.0" layoutY="217.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Helmet3.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="mb1" alignment="TOP_CENTER" layoutX="303.0" layoutY="147.0" onMouseClicked="#play" opacity="0.75" prefHeight="41.0" prefWidth="130.0" text="Play" textFill="#1e1e1e">
+         <font>
+            <Font name="Impact" size="30.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="99.0" fitWidth="41.0" layoutX="422.0" layoutY="195.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Orc3.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="mb2" alignment="TOP_CENTER" layoutX="299.0" layoutY="203.0" onMouseClicked="#load" opacity="0.75" prefHeight="41.0" prefWidth="130.0" text="Load" textFill="#1e1e1e">
+         <font>
+            <Font name="Impact" size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="mb3" alignment="TOP_CENTER" layoutX="300.0" layoutY="261.0" onMouseClicked="#exit" opacity="0.75" prefHeight="41.0" prefWidth="130.0" text="Exit" textFill="#1e1e1e">
+         <font>
+            <Font name="Impact" size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
