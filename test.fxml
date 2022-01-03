@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="scenePane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="10176.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller">
+   <children>
+      <ImageView fitHeight="142.0" fitWidth="58.0" layoutX="455.0" layoutY="101.0" pickOnBounds="true" preserveRatio="true" scaleY="1.5">
+         <image>
+            <Image url="@The_Will_Hero-main/millwind.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="isl11" fitHeight="100.0" fitWidth="150.0" layoutX="400.0" layoutY="245.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@The_Will_Hero-main/island_empty.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="93.0" fitWidth="57.0" layoutX="4594.0" layoutY="161.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Tree3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="35.0" fitWidth="66.0" layoutX="2042.0" layoutY="129.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@The_Will_Hero-main/island_empty.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="46.0" fitWidth="87.0" layoutX="3812.0" layoutY="51.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/BalancingRocks5.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="146.0" fitWidth="51.0" layoutX="1310.0" layoutY="58.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@The_Will_Hero-main/trees_island.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="145.0" fitWidth="39.0" layoutX="1995.0" layoutY="59.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@The_Will_Hero-main/tree2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="157.0" fitWidth="73.0" layoutX="2008.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@The_Will_Hero-main/cloud.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="92.0" fitWidth="78.0" layoutX="1989.0" layoutY="138.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@The_Will_Hero-main/island_empty.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="34.0" fitWidth="35.0" layoutX="2674.0" layoutY="99.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@The_Will_Hero-main/island_empty.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="82.0" fitWidth="96.0" layoutX="3187.0" layoutY="311.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@The_Will_Hero-main/floatingIslands.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="59.0" fitWidth="39.0" layoutX="3613.0" layoutY="146.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@The_Will_Hero-main/floatingIslands.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="island" fitHeight="82.0" fitWidth="57.0" layoutX="840.0" layoutY="75.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="840.0" AnchorPane.rightAnchor="9279.0">
+         <image>
+            <Image url="@The_Will_Hero-main/floatingIslands.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="isl21" fitHeight="101.0" fitWidth="36.0" layoutX="870.0" layoutY="345.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@The_Will_Hero-main/island_empty.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="isl2" fitHeight="143.0" fitWidth="184.0" layoutX="195.0" layoutY="245.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@The_Will_Hero-main/island_empty.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="26.0" fitWidth="16.0" layoutX="345.0" layoutY="149.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Tree3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="29.0" fitWidth="38.0" layoutX="339.0" layoutY="171.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/BalancingRocks6.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="87.0" fitWidth="26.0" layoutX="1324.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@The_Will_Hero-main/tree2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="cloud2" fitHeight="28.0" fitWidth="168.0" layoutX="326.0" layoutY="284.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@The_Will_Hero-main/cloud.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="cloud" fitHeight="65.0" fitWidth="129.0" layoutX="481.0" layoutY="94.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@The_Will_Hero-main/cloud.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="settings" fitHeight="40.0" fitWidth="46.0" layoutX="7.0" layoutY="6.0" onMouseClicked="#gear" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@The_Will_Hero-main/settings_icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="isl1" fitHeight="150.0" fitWidth="200.0" layoutX="42.0" layoutY="244.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@The_Will_Hero-main/island_empty.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="willhero" alignment="TOP_CENTER" layoutX="105.0" layoutY="68.0" opacity="0.75" prefHeight="77.0" prefWidth="613.0" text=" Will Hero">
+         <font>
+            <Font name="Impact" size="62.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="55.0" fitWidth="26.0" layoutX="79.0" layoutY="218.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Helmet2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="131.0" fitWidth="72.0" layoutX="134.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Tree3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="avatar" fitHeight="30.0" fitWidth="32.0" layoutX="271.0" layoutY="225.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Helmet3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="100.0" fitWidth="51.0" layoutX="79.0" layoutY="115.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@The_Will_Hero-main/floatingIslands.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="72.0" fitWidth="59.0" layoutX="909.0" layoutY="333.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@The_Will_Hero-main/island_empty.png" />
+         </image>
+      </ImageView>
+      <Pane fx:id="pane" layoutX="24.0" layoutY="1.0" onMouseClicked="#play" opacity="0.44" prefHeight="399.0" prefWidth="710.0">
+         <children>
+            <Pane fx:id="initt" layoutX="14.0" layoutY="45.0" onMouseClicked="#init" prefHeight="297.0" prefWidth="694.0" />
+            <ImageView fx:id="knifimg" fitHeight="13.0" fitWidth="81.0" layoutX="135.0" layoutY="361.0" onMouseClicked="#chooseknife" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@The_Will_Hero-main/w2.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="shurimg" fitHeight="54.0" fitWidth="47.0" layoutX="34.0" layoutY="336.0" onMouseClicked="#chooseshuri" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@The_Will_Hero-main/w1.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="shurimg1" fitHeight="68.0" fitWidth="52.0" layoutX="609.0" layoutY="305.0" onMouseClicked="#shootarray" opacity="0.79" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/Helmet2.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Label fx:id="coincounter" alignment="TOP_CENTER" layoutX="544.0" layoutY="25.0" opacity="0.75" prefHeight="35.0" prefWidth="201.0" text=" Coins" textFill="#ffd700">
+         <font>
+            <Font name="Impact" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="scorelLabel" alignment="TOP_CENTER" layoutX="280.0" opacity="0.75" prefHeight="35.0" prefWidth="201.0" text="0" textFill="#51504f">
+         <font>
+            <Font name="Impact" size="36.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="46.0" fitWidth="20.0" layoutX="2684.0" layoutY="76.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Tree4.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="43.0" fitWidth="36.0" layoutX="1797.0" layoutY="352.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@The_Will_Hero-main/island_empty.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="22.0" fitWidth="39.0" layoutX="1856.0" layoutY="363.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@The_Will_Hero-main/cloud.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="34.0" fitWidth="66.0" layoutX="2840.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@The_Will_Hero-main/cloud.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="51.0" fitWidth="133.0" layoutX="3849.0" layoutY="48.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@The_Will_Hero-main/cloud.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="43.0" fitWidth="36.0" layoutX="2063.0" layoutY="331.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@The_Will_Hero-main/island_empty.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="43.0" fitWidth="36.0" layoutX="1431.0" layoutY="378.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@The_Will_Hero-main/island_empty.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="14.0" fitWidth="45.0" layoutX="4263.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/BalancingRocks6.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="67.0" fitWidth="112.0" layoutX="2469.0" layoutY="336.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@The_Will_Hero-main/cloud.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="72.0" fitWidth="163.0" layoutX="1403.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@The_Will_Hero-main/island_empty.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="59.0" fitWidth="117.0" layoutX="1454.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@The_Will_Hero-main/cloud.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="45.0" fitWidth="78.0" layoutX="1393.0" layoutY="87.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@The_Will_Hero-main/cloud.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="114.0" fitWidth="149.0" layoutX="5239.0" layoutY="135.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Tree3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="87.0" fitWidth="85.0" layoutX="6233.0" layoutY="164.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@The_Will_Hero-main/bigorc.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ORC" fitHeight="99.0" fitWidth="41.0" layoutX="510.0" layoutY="225.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Orc3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="107.0" fitWidth="215.0" layoutX="5660.0" layoutY="245.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Islands2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="93.0" fitWidth="228.0" layoutX="6073.0" layoutY="246.0" pickOnBounds="true" preserveRatio="true" scaleX="2.0">
+         <image>
+            <Image url="@assets/Islands2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="93.0" fitWidth="228.0" layoutX="5819.0" layoutY="245.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Islands2.png" />
+         </image>
+      </ImageView>
+      <Rectangle fx:id="deathline" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="20.0" layoutY="280.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="6000.0" />
+      <ImageView fitHeight="142.0" fitWidth="58.0" layoutX="3456.0" layoutY="101.0" pickOnBounds="true" preserveRatio="true" scaleY="1.5">
+         <image>
+            <Image url="@The_Will_Hero-main/millwind.png" />
+         </image>
+      </ImageView>
+      <Pane fx:id="pane2" disable="true" layoutX="60.0" layoutY="-70.0" prefHeight="547.0" prefWidth="774.0">
+         <children>
+            <Label fx:id="pause" layoutX="330.0" layoutY="177.0" onMouseClicked="#resume" opacity="0.8" text="resume" visible="false">
+               <font>
+                  <Font name="Impact" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="save" layoutX="330.0" layoutY="214.0" onMouseClicked="#saving_progress" opacity="0.8" text="save" visible="false">
+               <font>
+                  <Font name="Impact" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="restart" layoutX="330.0" layoutY="250.0" onMouseClicked="#restart" opacity="0.8" text="restart" visible="false">
+               <font>
+                  <Font name="Impact" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="exitm" layoutX="330.0" layoutY="309.0" onMouseClicked="#exit" opacity="0.8" text="exit to main menu" visible="false">
+               <font>
+                  <Font name="Impact" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane fx:id="p3" disable="true" layoutX="120.0" layoutY="20.0" opacity="0.0" prefHeight="374.0" prefWidth="631.0">
+         <children>
+            <Label fx:id="gameover" layoutX="149.0" layoutY="35.0" prefHeight="61.0" prefWidth="228.0" rotate="-10.3" text="Game Over!" textFill="#970101">
+               <font>
+                  <Font name="Impact" size="48.0" />
+               </font>
+            </Label>
+            <Label fx:id="ressure" layoutX="166.0" layoutY="122.0" onMouseClicked="#revive" prefHeight="45.0" prefWidth="233.0" text="Ressurect  [ 1000 coins ]">
+               <font>
+                  <Font name="Impact" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="playagain" layoutX="121.0" layoutY="170.0" onMouseClicked="#restart" prefHeight="45.0" prefWidth="233.0" text="Play again">
+               <font>
+                  <Font name="Impact" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="exittomain" layoutX="243.0" layoutY="211.0" onMouseClicked="#exit" prefHeight="45.0" prefWidth="233.0" text="Exit to main menu">
+               <font>
+                  <Font name="Impact" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
